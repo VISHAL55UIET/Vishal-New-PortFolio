@@ -19,7 +19,7 @@ export const HeroSection = () => {
       </div>
 
       {/* Main Content */}
-      <div className="container max-w-5xl mx-auto text-center relative z-10">
+      <div className="container max-w-5xl mx-auto text-center relative z-10 pt-24 md:pt-0">
         <div className="space-y-8">
           {/* Top Intro */}
           <p className="text-sm md:text-base tracking-[0.35em] uppercase text-primary font-medium opacity-90">
