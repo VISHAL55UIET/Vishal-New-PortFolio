@@ -9,7 +9,7 @@ const projects = [
     image: "/projects/project1.png",
     tags: ["React", "Node.js", "MongoDB", "Express"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://github.com/VISHAL55UIET/Grocery-delivery-",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     image: "/projects/project2.png",
     tags: ["MERN", "REST APIs", "MongoDB"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://github.com/VISHAL55UIET/CarRental-fullstack",
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ const projects = [
     image: "/projects/project3.png",
     tags: ["React", "TailwindCSS", "Vite"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://github.com/VISHAL55UIET/Vishal-New-PortFolio",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projects = [
     image: "/projects/project5.png",
     tags: ["Node.js", "Express.js", "MongoDB", "JWT"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://github.com/VISHAL55UIET/tax-harvest",
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const projects = [
     image: "/projects/project4.png",
     tags: ["Java", "DSA", "Algorithms"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://codolio.com/profile/Vishall",
   },
   {
     id: 6,
@@ -59,7 +59,7 @@ const projects = [
     image: "/projects/project6.png",
     tags: ["Java", "Golang", "AI", "Backend"],
     demoUrl: "#",
-    githubUrl: "https://github.com/VISHAL55UIET",
+    githubUrl: "https://github.com/VISHAL55UIET/ApplicationTracker",
   },
 ];
 
