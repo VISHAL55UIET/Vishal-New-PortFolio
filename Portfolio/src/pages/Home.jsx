@@ -5,6 +5,7 @@ import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutSection";
 import CodingProfilesSection from "../components/CodingProfilesSection";
 import { SkillsSection } from "../components/SkillsSection";
+import GitHubStatsSection from "../components/GitHubStatsSection";
 import OpenToWorkSection from "../components/OpenToWorkSection";
 import { CertificateSection } from "../components/CertificateSection";
 import { ProjectsSection } from "../components/ProjectsSection";
@@ -24,6 +25,7 @@ export const Home = () => {
         <AboutSection />
         <SkillsSection />
         <CodingProfilesSection />
+        <GitHubStatsSection />
          <CertificateSection />
         <ProjectsSection />
         <OpenToWorkSection />
