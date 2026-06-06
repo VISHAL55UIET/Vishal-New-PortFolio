@@ -1,5 +1,5 @@
 import { Typewriter } from "react-simple-typewriter";
-
+import resume from "../assets/resume/Vishal_Singh_Resume.pdf";
 export const HeroSection = () => {
   return (
     <section
@@ -72,21 +72,32 @@ export const HeroSection = () => {
           </p>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-5 justify-center pt-4">
-            <a
-              href="#projects"
-              className="px-8 py-4 rounded-full bg-primary text-white font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-[0_0_25px_rgba(130,69,236,0.35)]"
-            >
-              View My Work
-            </a>
+         <div className="flex flex-col sm:flex-row gap-5 justify-center pt-4">
+  
+  <a
+    href="#projects"
+    className="px-8 py-4 rounded-full bg-primary text-white font-semibold text-lg hover:scale-105 transition-all duration-300 shadow-[0_0_25px_rgba(130,69,236,0.35)]"
+  >
+    View My Work
+  </a>
 
-            <a
-              href="#contact"
-              className="px-8 py-4 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-white font-semibold text-lg hover:border-primary hover:text-primary transition-all duration-300"
-            >
-              Let’s Connect
-            </a>
-          </div>
+  <a
+    href={resume}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-8 py-4 rounded-full border border-primary bg-primary/10 text-white font-semibold text-lg hover:scale-105 transition-all duration-300"
+  >
+    View Resume
+  </a>
+
+  <a
+    href="#contact"
+    className="px-8 py-4 rounded-full border border-white/10 bg-white/5 backdrop-blur-md text-white font-semibold text-lg hover:border-primary hover:text-primary transition-all duration-300"
+  >
+    Let's Connect
+  </a>
+
+</div>
         </div>
       </div>
     </section>
