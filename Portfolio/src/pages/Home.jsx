@@ -1,9 +1,10 @@
 import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
-import StarBackground from "@/components/StarBackGround";
+import { StarBackground } from "@/components/StarBackGround";
 import { HeroSection } from "../components/HeroSection";
 import { AboutSection } from "../components/AboutSection";
 import { SkillsSection } from "../components/SkillsSection";
+import { CertificateSection } from "../components/CertificateSection";
 import { ProjectsSection } from "../components/ProjectsSection";
 import ContactSection from "../components/ContactSection";
 import { Footer } from "../components/Footer";
@@ -20,6 +21,7 @@ export const Home = () => {
         <HeroSection />
         <AboutSection />
         <SkillsSection />
+         <CertificateSection />
         <ProjectsSection />
         <ContactSection />
       </main>
