@@ -50,23 +50,23 @@ export const HeroSection = () => {
   </div>
   
 </div>
-<div className="flex flex-wrap justify-center gap-3 mt-6 mb-6">
+<div className="flex flex-wrap justify-center gap-4 mt-6 mb-6 text-sm">
 
-  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+  <span className="text-yellow-400">
     🏆 2200+ DSA Problems
-  </div>
+  </span>
 
-  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+  <span className="text-orange-400">
     ⭐ 4★ CodeChef
-  </div>
+  </span>
 
-  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
-    💙 Specialist Codeforces
-  </div>
+  <span className="text-blue-400">
+    💙 Specialist
+  </span>
 
-  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+  <span className="text-green-400">
     🚀 60+ Repositories
-  </div>
+  </span>
 
 </div>
           <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-gray-300 min-h-[55px]">
