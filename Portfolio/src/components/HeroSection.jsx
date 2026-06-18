@@ -48,6 +48,26 @@ export const HeroSection = () => {
 
     Open To SDE-1 Opportunities
   </div>
+  
+</div>
+<div className="flex flex-wrap justify-center gap-3 mt-6 mb-6">
+
+  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+    🏆 2200+ DSA Problems
+  </div>
+
+  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+    ⭐ 4★ CodeChef
+  </div>
+
+  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+    💙 Specialist Codeforces
+  </div>
+
+  <div className="px-4 py-2 rounded-full bg-white/5 border border-white/10">
+    🚀 60+ Repositories
+  </div>
+
 </div>
           <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-gray-300 min-h-[55px]">
             <Typewriter
