@@ -54,11 +54,9 @@ export const AboutSection = () => {
                   <h4 className="font-semibold text-lg">
                     DSA & Competitive Programming
                   </h4>
-                  <p className="text-muted-foreground">
-                    Solved 1800+ LeetCode problems, achieved 3★ on CodeChef,
-                    Specialist on Codeforces, and built strong expertise in
-                    algorithms, optimization, and data structures.
-                  </p>
+                <p className="text-muted-foreground">
+  Solved 2200+ DSA problems across leading coding platforms, achieved 4★ on CodeChef and Specialist on Codeforces, with proven expertise in algorithms, advanced data structures, competitive programming, and efficient problem solving.
+</p>
                 </div>
               </div>
             </div>
