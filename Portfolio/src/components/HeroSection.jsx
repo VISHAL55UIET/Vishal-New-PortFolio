@@ -6,27 +6,21 @@ export const HeroSection = () => {
       id="hero"
       className="relative min-h-screen flex items-center justify-center px-6 bg-[#050414] overflow-hidden"
     >
-      {/* Premium Glow Background */}
       <div className="absolute inset-0 -z-10">
-        {/* Center Glow */}
+       
         <div className="absolute top-24 left-1/2 -translate-x-1/2 w-[500px] h-[500px] bg-primary/10 blur-[130px] rounded-full" />
 
-        {/* Bottom Right Glow */}
         <div className="absolute bottom-20 right-16 w-[260px] h-[260px] bg-primary/5 blur-[100px] rounded-full" />
 
-        {/* Top Left Soft Glow */}
         <div className="absolute top-16 left-12 w-[180px] h-[180px] bg-white/5 blur-[80px] rounded-full" />
       </div>
 
-      {/* Main Content */}
       <div className="container max-w-5xl mx-auto text-center relative z-10 pt-24 md:pt-0">
         <div className="space-y-8">
           {/* Top Intro */}
           <p className="text-sm md:text-base tracking-[0.35em] uppercase text-primary font-medium opacity-90">
             Software Engineer • Backend Developer • Problem Solver
           </p>
-
-          {/* Main Heading */}
           <h1 className="text-5xl sm:text-6xl md:text-8xl font-extrabold tracking-tight leading-tight">
             <span className="text-white">Hi, I'm</span>
             <br />
@@ -37,8 +31,24 @@ export const HeroSection = () => {
               Singh
             </span>
           </h1>
+    <div className="flex justify-center mt-4 mb-4">
+  <div
+    className="
+      flex items-center gap-2
+      px-4 py-2
+      rounded-full
+      bg-green-500/10
+      border border-green-500/30
+      text-green-400
+      font-semibold
+      text-sm md:text-base
+    "
+  >
+    <span className="w-2.5 h-2.5 bg-green-400 rounded-full animate-pulse"></span>
 
-          {/* Dynamic Typewriter */}
+    Open To SDE-1 Opportunities
+  </div>
+</div>
           <h2 className="text-xl sm:text-2xl md:text-4xl font-semibold text-gray-300 min-h-[55px]">
             <Typewriter
               words={[
