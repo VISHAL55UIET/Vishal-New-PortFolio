@@ -19,7 +19,7 @@ export const codingProfiles = [
       "📈 Max Rating: 1632",
       "🏅 Global Rank: 14787",
        "📚 Problems Solved: 1000+",
-        "🥇 Best Contest Rank: 45,STARTER-222",
+        "🥇 Best Contest Rank: 42,STARTER-222",
     ],
     link: "https://www.codechef.com/users/vishu_77",
     color: "text-orange-400",
